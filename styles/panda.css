@@ -47,3 +47,44 @@ nav{
     font-size: 16;
     font-weight: 400;
 }
+
+/* Banner section */
+
+.banner{
+    background-color: rgba(254, 234, 233, 1.00);
+    height: 455px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    gap: 180px;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.banner h1{
+color: rgb(31, 31, 31);
+font-size: 56px;
+font-weight: 700;
+}
+
+.banner p{
+color: rgb(78, 78, 78);
+font-size: 16px;
+font-weight: 400;
+width: 455px;
+}
+
+.banner-price{
+    color: rgb(255, 19, 111);
+font-size: 50px;
+font-weight: 700;
+}
+
+.btn-primary{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
