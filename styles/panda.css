@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: "Poppins", sans-serif;
 }
 
 body{
@@ -87,4 +88,52 @@ font-weight: 700;
     font-size: 20px;
     font-weight: 500;
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+
+/* categories section */
+
+.categories{
+    margin-top: 70px;
+}
+
+.categories-card-container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.category-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    background:linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
+    width: 350px;
+    height: 100px;
+}
+.category-card-two{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    background:linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    width: 350px;
+    height: 100px;
+}
+.category-card-three{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 20px;
+    background:linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
+    width: 350px;
+    height: 100px;
+}
+
+.category-card,.category-card-two,.category-card-three h3{
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    font-weight: 500;
 }
