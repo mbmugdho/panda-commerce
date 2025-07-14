@@ -89,7 +89,7 @@ width: 455px;
     font-weight: 500;
     color: white;
     background: black;
-    margin-top: 15px;
+    margin-top: 5px;
 }
 .panda-button{
     border: none;
@@ -189,6 +189,8 @@ width: 455px;
     padding: 50px;
 }
 
+
+
 .shoes-card p{
     margin-top: 10px;
     color: rgb(78, 78, 78);
@@ -244,4 +246,39 @@ font-weight: 500;
 color: rgb(0, 0, 0);
 font-size: 24px;
 font-weight: 500;
+}
+
+/* footer section */
+
+.footer{
+    background-color: rgba(255, 242, 241, 1.00);
+    border-radius: 20px;
+    height: 300px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.footer-content{
+    margin-top: 10px;
+    padding: 80px 70px;
+}
+
+
+.inp-btn-parent{
+    display: flex;
+    justify-content: center;
+    gap: 5px;margin-top: 20px;
+}
+.footer input{
+    border: none;
+    padding: 15px 50px;
+}
+
+.ft-button{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
 }
