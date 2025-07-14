@@ -77,11 +77,21 @@ width: 455px;
 
 .banner-price{
     color: rgb(255, 19, 111);
-font-size: 50px;
-font-weight: 700;
+    font-size: 50px;
+    font-weight: 700;
 }
 
 .btn-primary{
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    background: black;
+    margin-top: 15px;
+}
+.panda-button{
     border: none;
     border-radius: 10px;
     padding: 10px 20px;
@@ -136,4 +146,102 @@ font-weight: 700;
     color: rgb(255, 255, 255);
     font-size: 36px;
     font-weight: 500;
+}
+
+
+/* shoes section */ 
+.shoes-backpack{
+    margin-top: 40px;
+    background-color: rgb(244, 244, 244);
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.shoes-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shoes-title h2{
+    color: rgb(31, 31, 31);
+    font-size: 36px;
+    font-weight: 600;}
+
+.shoes-title h4{
+    color: rgb(255, 157, 0);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+
+.shoes-card-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.shoes-card{
+    background-color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+.shoes-card p{
+    margin-top: 10px;
+    color: rgb(78, 78, 78);
+}
+
+.shoes-price{
+color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 500;
+}
+
+/* Backpack section */
+
+.backpack-card-container{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.backpack-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 10px;
+}
+
+.backpack-title h2{
+    color: rgb(31, 31, 31);
+    font-size: 36px;
+    font-weight: 600;}
+
+.backpack-title h4{
+    color: rgb(255, 157, 0);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.backpack-card{
+    background-color: white;
+    width: 280px;
+    height: 380px;
+    border-radius: 20px;
+    text-align: center;
+    padding: 50px;
+}
+
+.backpack-card p{
+    margin-top: 10px;
+    color: rgb(78, 78, 78);
+}
+
+.backpack-price{
+color: rgb(0, 0, 0);
+font-size: 24px;
+font-weight: 500;
 }
