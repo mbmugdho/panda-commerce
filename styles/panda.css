@@ -91,6 +91,9 @@ width: 455px;
     background: black;
     margin-top: 5px;
 }
+.btn-primary:hover{
+    color: chocolate;
+}
 .panda-button{
     border: none;
     border-radius: 10px;
@@ -98,6 +101,9 @@ width: 455px;
     font-size: 20px;
     font-weight: 500;
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+}
+.panda-button:hover{
+    color: aliceblue;
 }
 
 /* categories section */
@@ -120,6 +126,8 @@ width: 455px;
     background:linear-gradient(151.85deg, rgb(255, 156, 53) 14.537%,rgb(255, 208, 25) 84.486%);
     width: 350px;
     height: 100px;
+    box-shadow: 4px 6px 9px black;
+    
 }
 .category-card-two{
     display: flex;
@@ -130,6 +138,7 @@ width: 455px;
     background:linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
     width: 350px;
     height: 100px;
+    box-shadow: 4px 6px 9px black;
 }
 .category-card-three{
     display: flex;
@@ -140,6 +149,7 @@ width: 455px;
     background:linear-gradient(170.38deg, rgb(66, 137, 255) 15.416%,rgb(63, 7, 248) 74.29%);
     width: 350px;
     height: 100px;
+    box-shadow: 4px 6px 9px black;
 }
 
 .category-card,.category-card-two,.category-card-three h3{
@@ -187,6 +197,7 @@ width: 455px;
     border-radius: 20px;
     text-align: center;
     padding: 50px;
+    box-shadow: 4px 6px 9px black;
 }
 
 
@@ -235,6 +246,7 @@ font-weight: 500;
     border-radius: 20px;
     text-align: center;
     padding: 50px;
+    box-shadow: 4px 6px 9px black;
 }
 
 .backpack-card p{
@@ -281,4 +293,9 @@ font-weight: 500;
     font-size: 20px;
     font-weight: 500;
     background: linear-gradient(180.00deg, rgb(255, 88, 155) -0.006%,rgb(255, 19, 111) 99.994%);
+    
+}
+
+.ft-button:hover{
+    color: aliceblue;
 }
